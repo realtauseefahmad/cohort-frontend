@@ -1,0 +1,130 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f6fa;
+  margin: 0;
+  padding: 20px;
+}
+#header {
+  text-align: center;
+  margin-bottom: 40px;
+    background-color: #061c45;
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+}
+#header h1 {
+  font-size: 48px;
+  color: #ffffff;
+  margin: 0;
+}
+#header p {
+  font-size: 20px;
+  color: #ffffff;
+  margin: 5px 0 0;
+}
+#about{
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+}
+#about,
+#skills,
+#education,
+#projects,
+#contact {
+    padding: 20px;
+    border-radius: 8px;
+    align-items: center;
+    text-align: center;
+  margin-bottom: 40px;
+}
+h1 {
+  color: #2c3e50;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+h2 {
+  color: #2c3e50;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+h3 {
+  color: #2c3e50;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+p {
+  color: #34495e;
+  font-size: 16px;
+  line-height: 1.6;
+}
+#education > p {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 5px 0;
+}
+#education{
+    background-color: #bceef6;
+    padding: 20px;
+    border-radius: 8px;
+    align-items: center;
+    text-align: center;
+}
+#skills{
+    background-color: #f6e2b3;
+    padding: 20px;
+    border-radius: 8px;
+    align-items: center;
+    text-align: center;
+}
+#skills > p {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 5px 0;
+}
+#projects{
+    background-color: #f2e8fb;
+    padding: 20px;
+    border-radius: 8px;
+    align-items: center;
+    text-align: center;
+}
+#projects > p {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 5px 0;
+}
+#contact{
+    background-color: #b7d1c0;
+    padding: 20px;
+    border-radius: 8px;
+    align-items: center;
+    text-align: center;
+}
+#contact > p {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 5px 0;
+}
+#contact > a {
+    color: #2980b9;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    margin: 1px 0;
+    padding: 8px 12px;
+    border: 1px solid #2980b9;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;   
+}   
