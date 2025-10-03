@@ -108,9 +108,13 @@ html , body{
     border-radius: 10px;
     object-fit: cover;
     transform: translate(-50%,-50%);
-    
-
+    transition: all 0.3s ease-in-out;
 }
+#main img:hover {
+    transform: translate(-50%, -55%); /* Thoda upar uth jaega */
+    box-shadow: 4px 4px 20px rgba(0,0,0,0.4); /* Hover pe aur glow milega */
+}
+
 #main #fisrt{
     height: 300px;
     top: 58%;
