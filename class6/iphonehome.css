@@ -1,0 +1,108 @@
+@font-face {
+    font-family: "icons";
+    src: url(./sf-pro-display_semibold.woff2);
+}
+@font-face {
+    font-family: "iphone";
+    src: url(./sf-pro-text_regular.woff2);
+}
+@font-face {
+    font-family: "display";
+    src: url(./sf-pro-text_semibold.woff2);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    justify-content: center;
+    font-family: "icons";
+}
+#nav a{
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 200px;
+    padding: 5px;
+    margin-top: 6px;
+}
+i{
+    font-size: 25px;
+    padding: 10px;
+    margin-top: 6px;
+    margin-bottom: 5px;
+    color: black;
+}
+#offer{
+    background-color: #f5f5f7;
+    text-align: center;
+    padding: 10px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#offer a{
+    color: blue;
+    text-decoration: none;
+}
+#offer a:hover{
+    text-decoration: underline;
+}
+#iphone{
+  margin-top: 30px;
+  font-family: "display";
+  width: 100%;
+  height: auto;
+}
+
+#iphone > h1{
+  font-size: 70px;
+  font-weight: 800px;
+  margin-left: 85px;
+  margin-bottom: 40px; 
+  font-family: "iphone"; 
+}
+
+#iphone a{
+  text-decoration: none;
+  font-size: 20px;
+  display: inline-block;
+  text-align: center;
+  font-family: "display";
+  width: 40px;
+  margin-left: 60px;
+  height: auto;
+  size: 2px;
+
+}
+
+#iphone a img{
+  width: 50px; 
+  margin-bottom: 10px;
+  display: block;
+}
+
+#iphone a .name{
+  font-size: 16px;
+  font-weight: 400;
+  color: #111;
+  margin: 0;
+}
+#iphone a .new{
+  font-size: 14px;
+  font-weight: 500;
+  color: #e85d04;
+  margin: 0;
+}
