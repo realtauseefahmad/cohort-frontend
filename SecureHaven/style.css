@@ -1,0 +1,334 @@
+@font-face {
+    font-family: "logo";
+    src: url(./Bigbesty.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    width: 100%;
+    height: 100%;
+}
+main{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(254, 255, 255);
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+    grid-template-rows: 60px 440px 120px 200px 200px 350px;
+    grid-template-areas: "header header header"
+                         "section section section"
+                         "heading heading heading"
+                         "div-left buttom-up div-right"
+                         "div-left buttom-down div-right"
+                         "about about about"
+    ;
+    gap: 10px;
+}
+header {
+    grid-area: header;
+    width: 100%;
+    background: #fff;
+    border-radius: 20px; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+    padding: 10px 0;   
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    font-family: Arial, sans-serif;
+}
+
+nav h3 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    font-family: "logo";
+}
+
+nav .links {
+    display: flex;
+    gap: 30px;   
+}
+
+nav .links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav .links a:hover {
+    color: #0077b6;  
+}
+
+nav .icons {
+    display: flex;
+    gap: 15px;
+}
+
+nav .icons a {
+    font-size: 20px;
+    color: rgb(238, 129, 129);
+    transition: 0.3s;
+}
+
+nav .icons a:hover {
+    color: #0077b6;
+}
+section{
+  grid-area: section;
+  margin-top: 20px;
+  padding: 90px;
+  width: 1350px;
+  height: 410px;
+  background-image: url(https://images.unsplash.com/photo-1616046229478-9901c5536a45?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-position: center;
+  -webkit-background-composite: border;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 68%, 75% 68%, 75% 100%, 44% 100%, 0 100%);
+  border-radius: 20px;
+  background-clip: border-box;
+}
+section>h2{
+  font-size: 60px;
+  color: #06c2bc;
+  display: inline-block;
+  text-transform: capitalize;
+  font-weight: bolder;
+}
+section > p{
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: lighter;
+}
+section button{
+  padding: 10px;
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+  margin: 10px 40px;
+}
+section .learn button{
+  background-color: transparent;
+  border: 2px solid black;
+  color: #fff;
+  text-transform: capitalize;
+}
+#heading{
+  grid-area: heading;
+  padding: 10px;
+  background-color: #fff;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+#heading div{
+  width: 800px;
+}
+#heading h1{
+  font-size: 50px;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+#heading h2{
+  font-size: 40px;
+  text-align: center;
+  text-transform: capitalize;
+  color: rgb(111, 31, 4);
+}
+#heading p{
+  font-size: 13px;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: lighter;
+  color: rgb(220, 5, 5);
+}
+#div-left{
+  grid-area: div-left;
+  width: 100%;
+  height: 100%;
+   border-radius: 30px;
+   overflow: hidden;
+   cursor: pointer;
+   position: relative;
+}
+#div-left img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#div-left .bottom{
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  bottom: -100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  background: linear-gradient(transparent,black);
+  transition: all ease 0.8s;
+}
+.bottom h4{
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 400;
+}
+.bottom p{
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.bottom h3{
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 50%;
+}
+.bottom i{
+    color: red;
+}
+
+#div-left:hover .bottom{
+  bottom: 0;
+}
+#buttom-up{
+   grid-area: buttom-up;
+  width: 100%;
+  height: 100%;
+   border-radius: 30px;
+   overflow: hidden;
+   cursor: pointer;
+   position: relative;
+}
+#buttom-up img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#buttom-up .bottom{
+  height: 40px;
+  width: 100%;
+  position: absolute;
+  bottom: -40px;
+  padding: 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding: 0px;
+  background: linear-gradient(transparent,black);
+  transition: all ease 0.8s;
+}
+#buttom-up:hover .bottom{
+  bottom: 0;
+}
+#div-right{
+   grid-area: div-right;
+  width: 100%;
+  height: 100%;
+   border-radius: 30px;
+   overflow: hidden;
+   cursor: pointer;
+   position: relative;
+}
+#div-right img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#div-right .bottom{
+  height: 70px;
+  width: 100%;
+  position: absolute;
+  bottom: -70px;
+  padding: 8px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding: 0px;
+  background: linear-gradient(transparent,black);
+  transition: all ease 0.8s;
+}
+#div-right:hover .bottom{
+  bottom: 0;
+}
+#buttom-down{
+   grid-area: buttom-down;
+  width: 100%;
+  height: 100%;
+   border-radius: 30px;
+   overflow: hidden;
+   cursor: pointer;
+   position: relative;
+   background-color: #0077b6;
+}
+#buttom-down img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#buttom-down .bottom{
+  height: 40px;
+  width: 100%;
+  position: absolute;
+  bottom: -40px;
+  padding: 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding: 0px;
+  background: linear-gradient(transparent,black);
+  transition: all ease 0.8s;
+}
+#buttom-down:hover .bottom{
+  bottom: 0;
+}
+#about{
+  grid-area: about;
+  height: 100%;
+  width: 1350px;
+  background-color: rgb(39, 39, 39);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 30px;
+
+}
+#about .image{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+#about .image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#about .line h3{
+  margin-left: 20px;
+  font-size: 60px;
+  display: inline-block;
+  color: #fff;
+}
+#about .line h4{
+  margin-left: 20px;
+  font-size: 50px;
+  display: inline-block;
+  color: #0c5ff0;
+}
+#about .line p{
+  margin-left: 20px;
+  width: 500px;
+  font-size: 18px;
+  display: inline-block;
+  color: #ffffff;
+}
