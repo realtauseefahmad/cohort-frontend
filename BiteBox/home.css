@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(220, 243, 244, 0.764);
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 400px 630px;
+  grid-template-areas: "header" "section";
+}
+main header {
+  grid-area: header;
+  width: 100%;
+  height: 500px;
+  background-image: url(https://plus.unsplash.com/premium_photo-1724685602679-c99da44e9113?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2070);
+  background-size: cover;
+  clip-path: polygon(100% 0, 100% 79%, 87% 89%, 68% 80%, 50% 88%, 30% 81%, 14% 89%, 0 81%, 0 0);
+}
+main header nav {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 5px 40px;
+}
+main header nav a img {
+  width: 90px;
+  height: 60px;
+}
+main header nav .navbar .home {
+  color: #0fbbff;
+}
+main header nav .navbar a {
+  text-decoration: none;
+  color: aliceblue;
+  padding: 5px 25px;
+  position: relative;
+  font-size: 15px;
+}
+main header nav .navbar a::after {
+  content: "";
+  background: #0fbbff;
+  position: absolute;
+  height: 2px;
+  width: 0;
+  left: 10px;
+  bottom: -1px;
+  transition: 0.2s;
+  pointer-events: none;
+}
+main header nav .navbar a:hover::after {
+  width: 70%;
+}
+main header nav .icon i {
+  color: #f1f5f9;
+  padding: 6px 12px;
+  font-size: 20px;
+}
+main header .content {
+  text-align: center;
+  padding: 20px 50px;
+  gap: 0px;
+}
+main header .content h1 {
+  font-size: 35px;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+}
+main header .content p {
+  font-size: 20px;
+  width: 500px;
+  height: 100px;
+  padding: 20px;
+  margin-left: 450px;
+  color: #f1f5f9;
+}
+main header .content form {
+  margin-top: 40px;
+}
+main header .content form input {
+  height: 0;
+  padding: 20px;
+  border: none;
+  border-radius: 30px;
+  background-color: #f1f5f9;
+  box-shadow: 3px 3px 5px #0fbbff;
+}
+main header .content form button {
+  padding: 15px;
+  margin-left: 10px;
+  border-radius: 50px;
+  background-color: #0fbbff;
+  border: none;
+  color: #f1f5f9;
+}
+main section {
+  width: 100%;
+  height: 630px;
+  grid-area: section;
+  background-color: #ffffff;
+  padding: 50px;
+}
+main section p {
+  text-align: center;
+  color: #0fbbff;
+  font-size: 15px;
+}
+main section h2 {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 300;
+}
+main section #food {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 20px;
+  overflow: auto;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+main section #food .food {
+  flex-shrink: 0;
+}
+main section #food .food img {
+  width: 200px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 30px;
+  cursor: pointer;
+}
+main section #food .food img:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+}
+main section #food .food h4 {
+  font-size: 20px;
+  font-weight: 200;
+  padding: 10px;
+  text-align: center;
+}/*# sourceMappingURL=home.css.map */

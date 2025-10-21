@@ -1,0 +1,235 @@
+@font-face {
+  font-family: "josticon";
+  src: url(./jost_n6.ec1178db7a7515114a2d84e3dd680832b7af8b99.woff2);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+header {
+  width: 100%;
+}
+header .para {
+  background-color: rgb(233, 75, 75);
+  padding: 0rem 1.875rem;
+}
+header .para h5 {
+  text-align: center;
+  color: #f4f6f8;
+  padding: 0.5rem 0rem;
+  font-family: "josticon";
+  font-size: 0.75rem;
+  font-weight: lighter;
+}
+header nav {
+  width: 100%;
+}
+header nav .nav1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.25rem 1.875rem;
+}
+header nav .nav1 .navleft1 {
+  padding: 0.625rem 1.25rem;
+  display: none;
+}
+header nav .nav1 .navleft1 span {
+  font-size: 0.75rem;
+  font-weight: 100;
+  color: #171717;
+}
+header nav .nav1 .navleft1 :hover {
+  color: rgba(220, 32, 70, 0.771);
+}
+header nav .nav1 .navleft {
+  padding: 0.625rem 1.25rem;
+}
+header nav .nav1 .navleft span {
+  font-size: 0.75rem;
+  font-weight: 100;
+  color: #171717;
+}
+header nav .nav1 .navleft :hover {
+  color: rgba(220, 32, 70, 0.771);
+}
+header nav .nav1 .navcenter img {
+  width: 13.7rem;
+  height: 2.5rem;
+}
+header nav .nav1 .navright {
+  padding: 0.625rem 1.25rem;
+}
+header nav .nav1 .navright a {
+  text-decoration: none;
+  color: #171717;
+  font-size: 0.75rem;
+  font-weight: 100;
+  padding: 0rem 0.5rem;
+}
+header nav .nav1 .navright a:hover {
+  color: rgba(220, 32, 70, 0.771);
+}
+header nav .nav1 .navright1 {
+  padding: 0.625rem 1.25rem;
+  display: none;
+}
+header nav .nav1 .navright1 a {
+  text-decoration: none;
+  color: #171717;
+  font-size: 0.75rem;
+  font-weight: 100;
+  padding: 0rem 0.5rem;
+}
+header nav .nav1 .navright1 a:hover {
+  color: rgba(220, 32, 70, 0.771);
+}
+header nav .nav2 {
+  display: flex;
+  justify-content: center;
+  background-color: #FFFFFF;
+  border-top: 0.1px solid #787A7C;
+  flex-wrap: wrap;
+}
+header nav .nav2 a {
+  text-decoration: none;
+  color: #787A7C;
+  font-size: 1.125rem;
+  padding: 0.9rem 1.125rem;
+  position: relative;
+}
+header nav .nav2 a:hover {
+  color: rgb(215, 15, 55);
+}
+header nav .nav2 a::after {
+  content: "";
+  background: rgb(215, 15, 55);
+  position: absolute;
+  height: 0.06rem;
+  width: 0;
+  left: 0.6rem;
+  bottom: 0.6rem;
+  transition: 0.4s;
+  pointer-events: none;
+}
+header nav .nav2 a:hover::after {
+  width: 100%;
+}
+
+main {
+  width: 100%;
+}
+main .view1 img {
+  width: 100vw;
+  height: 46.51vh;
+  display: block;
+}
+main .sell {
+  text-align: center;
+  padding: 0.7rem 0;
+}
+main .sell h2 {
+  color: rgb(255, 72, 6);
+  font-size: 2.5rem;
+  padding: 0.5rem 0;
+}
+main .sell a {
+  text-decoration: none;
+  color: crimson;
+  border-bottom: 0.06rem solid crimson;
+}
+main .view2 {
+  display: flex;
+  gap: 0.8rem;
+  overflow-x: scroll;
+  flex-wrap: nowrap;
+}
+main .view2 .shoes {
+  width: 27.7vw;
+  height: 75vh;
+  flex-shrink: 0;
+  cursor: pointer;
+  text-align: center;
+}
+main .view2 .shoes img {
+  width: 27.7vw;
+  height: 65vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  flex-shrink: 0;
+}
+main .view2 .shoes h4 {
+  font-size: 1.5rem;
+  font-weight: 100;
+  color: #787A7C;
+}
+main .view2 .shoes p {
+  font-size: 1.5rem;
+  font-weight: 100;
+  color: #171717;
+}
+main .view2::-webkit-scrollbar {
+  display: none;
+}
+main .view3 {
+  padding: 0.6rem 1.875rem;
+  width: 100vw;
+}
+main .view3 .image1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0rem;
+}
+main .view3 .image1 a img {
+  width: 46.87vw;
+  height: 57.588;
+}
+main .view3 .image2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0rem;
+}
+main .view3 .image2 a img {
+  width: 46.87vw;
+  height: 57.588;
+}
+main .view4 {
+  background: #F7F1F0;
+  width: 100vw;
+}
+main .view4 h2 {
+  text-align: center;
+  padding-top: 2rem;
+}
+main .view4 .explore {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem 0;
+}
+main .view4 .explore .explore1 a img {
+  width: 40vw;
+  height: 57vh;
+}
+main .view4 .explore .explore1 h3 {
+  font-size: 0.8rem;
+  font-weight: 100;
+}
+main .view4 .explore .explore2 a img {
+  width: 40vw;
+  height: 57vh;
+}
+main .view4 .explore .explore2 h3 {
+  font-size: 0.8rem;
+  font-weight: 100;
+}/*# sourceMappingURL=home.css.map */

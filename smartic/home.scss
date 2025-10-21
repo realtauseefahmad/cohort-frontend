@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+main{
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+    header{
+        width: 100%;
+        height: 35rem;
+        background-color: rgb(241, 241, 63);
+        clip-path: ellipse(71% 97% at 31% 0%);
+        z-index: 1;
+
+        nav{
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            padding: 1.4rem;
+
+            .navleft a{
+                text-decoration: none;
+                color: rgba(18, 18, 18, 0.767);
+                padding: 0.8rem;
+                font-size: 0.8rem;
+                font-weight: 200;
+            }
+            .navcenter a{
+                text-decoration: none;
+                color: rgba(0, 0, 0, 0.9);
+                font-size: 1.5rem;
+                font-weight: 700;
+            }
+            .navright a{
+                text-decoration: none;
+                color: rgba(18, 18, 18, 0.767);
+                padding: 0.7rem;
+                font-size: 1rem;
+                font-weight: bolder;
+            }
+            .navright .log{
+                text-decoration: none;
+                color: rgba(18, 18, 18, 0.767);
+                background-color: rgb(21, 136, 21);
+                border: none;
+                border-radius: 50px;
+                padding: 0.7rem;
+                font-size: 1rem;
+                font-weight: bolder;
+            }
+        }
+        h2{
+            text-align: center;
+            padding: 0.5rem;
+            color: #f1f5f9;
+            opacity: 20;
+        }
+        p{
+            text-align: center;
+            padding: 0.5rem;
+            color: rgb(3, 78, 3);
+            
+        }
+        .juiceimage{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1.2rem;
+            padding: 1.4rem;
+            img{
+                width: 20vw;
+                height: 40vh;
+                border-radius: 50px;
+                box-shadow: 2px 2px 20px black;
+                transition: all 0.7s cubic-bezier(0.19, 1, 0.22, 1);
+                position: relative;
+                z-index: 2;
+
+            }
+        }
+        .juiceimage img:last-child:hover {
+                transform: translateY(-110px) scale(1.2);
+                transition: transform 0.5s ease;
+                cursor: pointer;
+                z-index: 10;
+        }
+        .juiceimage img:not(:last-child):hover {
+                transform: scale(1.2);
+                transition: transform 0.3s ease;
+                cursor: pointer;
+        }
+
+    }
+
+    .view1{
+        width: 100%;
+        padding: 1rem;
+        h4{
+            color: rgba(0, 0, 0, 0.855);
+            text-align: center;
+            font-size: 3rem;
+            font-family: "Great Vibes", cursive;
+            font-weight: 400;
+
+        }
+        span{
+            color: greenyellow;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        p{
+            text-align: center;
+            font-weight: 50;
+        }
+        .card{
+            padding: 1.5rem;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            
+            .innercard{
+                height: 20rem;
+                width: 20rem;
+                background-color: rgb(255, 255, 255);
+                border-radius: 30px;
+                box-shadow: 5px 10px 25px black;
+                text-align: center;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                flex-shrink: 0;
+            }
+            .innercard img{
+                width: 100px;
+                height: 100px;
+                object-fit: cover;
+                border-radius: 50%;
+                margin-top: 20px;
+                flex-shrink: 0;
+            }
+            .innercard img:hover{
+                transform: scale(1.1);
+                transition: transform 0.3s ease;
+                cursor: pointer;
+            }
+            .card h5{
+                font-size: 2rem;
+                font-weight: 600;
+                text-transform: uppercase;
+                flex-shrink: 0;
+            }
+            .innercard p{
+                text-align: center;
+                font-size: 0.7rem;
+                font-weight: 400;
+                padding: 0 10px;
+                margin-top: 10px;
+                flex-shrink: 0;
+            }
+            .innercard button{
+                background-color: rgb(9, 129, 235);
+                color: white;
+                border: none;
+                border-radius: 20px;
+                margin: 15px;
+                padding: 10px 30px;
+                font-size: 0.9rem;
+                font-weight: 600;
+                cursor: pointer;
+            }
+            .innercard button:hover{
+                background-color: rgb(21, 68, 2);
+                transition: background-color 0.3s ease;
+            }
+        }
+
+    }
+
+    .view2{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .view2left img{
+            width: 400px;
+            height: 400px;
+            clip-path: ellipse(57% 39% at 35% 43%);
+        }
+        .view2center {
+            padding: 1rem;
+            h5{
+                color: rgba(0, 0, 0, 0.855);
+                font-size: 3rem;
+                font-family: "Great Vibes", cursive;
+                font-weight: 400;
+
+            }
+            span{
+                color: greenyellow;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            p{
+                width: 500px;
+                font-weight: 50;
+                font-size: 0.9rem;
+            }
+        }
+
+        .view2right img{
+            width: 200px;
+            height: 300px;
+        }
+
+    }
+    .view3{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .view3left {
+            padding: 5rem;
+            h5{
+                color: rgba(0, 0, 0, 0.855);
+                font-size: 3rem;
+                font-family: "Great Vibes", cursive;
+                font-weight: 400;
+                text-align: center;
+
+            }
+            span{
+                color: greenyellow;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            p{
+                width: 500px;
+                font-weight: 50;
+                font-size: 0.9rem;
+                text-align: center;
+            }
+        }
+
+        .view3right img{
+            width: 400px;
+            height: 400px;
+            clip-path: ellipse(57% 39% at 69% 47%);
+            object-position: center;
+        }
+    }
+    .view4{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .view4left img{
+            width: 400px;
+            height: 400px;
+            clip-path: ellipse(57% 39% at 35% 43%);
+            object-fit: cover;
+            object-position: bottom;
+        }
+        .view4center {
+            padding: 5rem;
+            h5{
+                color: rgba(0, 0, 0, 0.855);
+                font-size: 3rem;
+                font-family: "Great Vibes", cursive;
+                font-weight: 400;
+                text-align: center;
+
+            }
+            span{
+                color: greenyellow;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            p{
+                width: 500px;
+                font-weight: 50;
+                font-size: 0.9rem;
+            }
+        }
+    }
+    .view5{
+        width: 100%;
+        h4{
+            text-align: center;
+            font-family: "Great Vibes", cursive;
+            color: rgba(0, 0, 0, 0.855);
+            text-align: center;
+            font-size: 3rem;
+            font-family: "Great Vibes", cursive;
+            font-weight: 400;
+        }
+        span{
+            color: greenyellow;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .recipes{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .recipes1{
+                width: 22rem;
+                height: 25rem;
+                padding: 1.5rem;
+                img{
+                    width: 20rem;
+                    height: 18rem;
+                    border-radius: 30px;
+                }
+                h5{
+                    color: rgba(0, 0, 0, 0.855);
+                    font-size: 1.5rem;
+                    font-weight: 200;
+                    text-align: center;
+                }
+                p{
+                    text-align: center;
+                    font-size: 1rem;
+                    font-weight: 200;
+                    padding: 0.8rem;
+                }
+                button{
+                    margin-left: 118px;
+                    background-color: green;
+                    padding: 0.5rem 1.5rem;
+                    border: none;
+                    border-radius: 50px;
+                }
+            }
+        }
+        .our{
+            padding-top: 3rem;
+            color: rgba(0, 0, 0, 0.855);
+            text-align: center;
+            font-size: 2rem;
+            font-family: "Great Vibes", cursive;
+            font-weight: 400;
+
+        }
+        .story{
+            font-size: 0.8rem;
+            width: 500px;
+            text-align: center;
+            margin-left: 35%;
+        }
+    }
+
+    footer{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 1rem;
+        background-color: rgba(50, 50, 50, 0.778);
+        .social a{
+            text-decoration: none;
+            color: black;
+            font-size: 2rem;
+        }
+        input{
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            border: none;
+        }
+    }
+}
