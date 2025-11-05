@@ -106,5 +106,134 @@
 //     }
 //   }
 // }
+// let Attempt = 0;
+// let password = "tauseef";
+// let pass = prompt("Enter your password");
+// Attempt++;
+
+// while (Attempt < 3 && pass !== password) {
+//   console.error("Wrong password, try again!");
+//   pass = prompt("Enter your password");
+//   Attempt++;
+// }
+
+// if (pass === password) {
+//   console.log("Access granted ✅");
+// } else {
+//   console.error("Account locked 🔒");
+// }
+
+// Ask user for words until they type “stop”. Count how many times they typed “yes”
+// Loop until "stop" is typed. Count "yes".
+
+// let Ask =prompt("write a word");
+// let counter =0;
+// while(Ask !== "stop"){
+//   if(Ask==="yes") counter++
+//   Ask =prompt("write a word");
+// }
+// console.log(`total time count: ${counter}`);
+
+//Print numbers divisible by 7 from 1 to 50
+// Use modulo % and loop.
+// let i=1;
+// while(i<=50){
+//   if(i%7===0){
+//     console.log(i);
+//   }
+//   i++;
+// }
+
+//Sum of all odd numbers from 1 to 30
+// Add only odd numbers. Print final sum.
+// let i=1;
+// let sum=0;
+// while(i<=30){
+//   if(i%2===1){
+//     sum =sum+i;
+//   }
+//   i++;
+// }
+// console.log("Sum of all odd numbers from 1 to 30 is:", sum);
+
+//  Keep asking number until user enters an even number
+// Use while loop. Stop only if input is even.
+// let num = prompt("write any number");
+// num = Number(num);
+// while(num%2 !==0){
+//   num = prompt("write any number");
+//   num = Number(num);
+// }
+
+//  Print numbers between two user inputs
+// Input start and end using prompt() → print all between.
+// let start= +prompt("starting number do");
+// let end= +prompt("end number do")
+// if (isNaN(start) || isNaN(end)) {
+//   console.error("Please numbers daalo!");
+// } else {
+//   for (let i = start; i <= end; i++) {
+//     console.log(i);
+//   }
+// }
+
+// Print only first 3 odd numbers from 1 to 20
+// Use loop. Stop with break after 3 odd prints.
+// let i=1;
+// let count=0;
+// while(i<=20){
+//     if(i%2!==0){
+//         console.log(i);
+//         count++;
+//     }
+//     if(count === 3){
+//         break;
+//     }
+//     i++;
+// }
+
+// Ask user 5 numbers. Count how many are positive
+// Use loop + condition + counter.
+// let I = 1;
+// let counter = 0;
+// while (I <= 5) {
+//   let num = prompt("Number " + i + " daalo:");
+//   num = Number(num);
+
+//   if (isNaN(num)) {
+//     console.error("Please number daalo!");
+//   } else {
+//     if (num > 0) {
+//       counter++;
+//     }
+//   }
+//   I++;
+// }
+// console.log("Total positive numbers: " + count);
+
+
+// ATM Simulator – Allow 3 withdrawals
+// Start with ₹1000 balance. Ask withdrawal amount 3 times.
+// If enough balance → deduct
+// Else → print “Insufficient balance”
+// let balance = 1000;
+// let attempt = 1;
+// while (attempt <= 3) {
+//   let amount = prompt("Withdrawal amount daalo (Attempt " + attempt + "):");
+//   amount = Number(amount);
+//   if (isNaN(amount) || amount <= 0) {
+//     console.error("Please valid amount daalo!");
+//   } else {
+//     if (amount <= balance) {
+//       balance -= amount;
+//       console.log("Withdrawal successful! 💸");
+//       console.log("Remaining balance: ₹" + balance);
+//     } else {
+//       console.log("❌ Insufficient balance! Current balance: ₹" + balance);
+//     }
+//   }
+//   attempt++;
+// }
+// console.log("Session ended. Final balance: ₹" + balance);
 
 
