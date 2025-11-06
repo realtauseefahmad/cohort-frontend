@@ -101,8 +101,45 @@
 // console.log(sum);
 
 // Create a function square(num) that returns the square of a number.
-function square(num){
-    return num*num;
-}
-let number= square(8);
-console.log(number);
+// function square(num){
+//     return num*num;
+// }
+// let number= square(8);
+// console.log(number);
+
+// Write a function isEven(num) that checks if a number is even or not.
+// function isEven(num){
+//     if(num%2===0){
+//         return "even";
+//     } else{
+//         return "not even";
+//     }
+// }
+// let number= isEven(577);
+// console.log(number);
+
+//Create a function findArea(length, width) that returns the area of a rectangle.
+// function findArea(length, width){
+//     return length*width;
+// }
+// let rectangle= findArea(15,5);
+// console.log(`Area of rectangle is: ${rectangle}`);
+
+// Create a function getFullName(firstName, lastName) that returns the full name.
+// function getFullName(firstName, lastName){
+//     return firstName+" "+lastName;
+// }
+// let fullname = getFullName("Tauseef","Ahmad");
+// console.log(fullname);
+
+// Write a function getMax(a, b) that returns the larger of two numbers.
+// function getMax(a, b){
+//     if(a>b){
+//         return a;
+//     }else{
+//         return b;
+//     }
+// }
+// let number = getMax(400,500);
+// console.log(number);
+
