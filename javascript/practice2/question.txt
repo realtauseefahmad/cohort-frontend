@@ -1,0 +1,48 @@
+1. JavaScript Loop – Intermediate Level (10 Questions)
+
+Print even numbers from 1 to 50 using a while loop.
+
+Print the multiplication table of any number (for example, 7) using a for loop.
+
+Find the sum of all numbers between 1 and 100 using a loop.
+
+Print all numbers between 1 and 100 that are divisible by both 3 and 5, but stop the loop if the number reaches 75.
+
+Reverse a string (for example "hello" → "olleh") using a loop.
+
+Count how many vowels are in a given string using a for loop.
+
+Print all elements of an array using a for...of loop.
+
+Find the largest number in an array using a loop (for example [10, 55, 20, 90, 40]).
+
+Use a nested loop to print this pattern:
+*
+**
+***
+****
+*****
+Skip numbers divisible by 4 while printing 1 to 20 using continue.
+
+
+2. JavaScript Function – Basic Level (10 Questions)
+
+Create a function greetUser(name) that prints "Hello, <name>!".
+
+Create a function addNumbers(a, b) that returns the sum of two numbers.
+
+Create a function square(num) that returns the square of a number.
+
+Write a function isEven(num) that checks if a number is even or not.
+
+Create a function findArea(length, width) that returns the area of a rectangle.
+
+Write a function convertToCelsius(fahrenheit) that converts temperature from Fahrenheit to Celsius.
+
+Create a function getFullName(firstName, lastName) that returns the full name.
+
+Write a function getMax(a, b) that returns the larger of two numbers.
+
+Write a function multiplyArray(arr) that returns the product of all numbers in an array.
+
+Write a function sayGoodbye() that prints "Goodbye! See you soon!" in the consol
