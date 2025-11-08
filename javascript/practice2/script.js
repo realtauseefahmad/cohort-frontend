@@ -142,4 +142,44 @@
 // }
 // let number = getMax(400,500);
 // console.log(number);
+// function getMax(a, b, c){
+//     if(a>b){
+//         return a;
+//     }else{
+//         if(b>c){
+//             return b;
+//         } else{
+//             return c;
+//         }
+//     }
+// }
+// let number = getMax(400,500,1000);
+// console.log(number);
 
+// Create a function factorial(n) that returns the factorial of a number.
+// function factorial(n){
+//     let fact = 1;
+//   for(let i = 1; i <=n; i++) {
+//     fact = fact * i;
+//   }
+//   return fact;
+// }
+// console.log(factorial(5));
+
+//Create a function isPalindrome(str) that checks if a string is palindrome.
+// function isPalindrome(str) {
+//     str = str.toLowerCase().replace(/\s+/g, '');
+//     let reversed = str.split('').reverse().join('');
+//     if (str === reversed) {
+//         console.log("Palindrome");
+//     } else {
+//         console.log("Not Palindrome");
+//     }
+// }
+// isPalindrome("madam");     
+// isPalindrome("hello");
+//Create a function sumOfArray(arr) that returns the sum of all numbers in an array.
+function sumOfArray(arr){
+    return arr;
+}
+console.log(arr);

@@ -46,3 +46,32 @@ Write a function getMax(a, b) that returns the larger of two numbers.
 Write a function multiplyArray(arr) that returns the product of all numbers in an array.
 
 Write a function sayGoodbye() that prints "Goodbye! See you soon!" in the consol
+
+
+Intermediate Function Questions
+
+Create a function findMax(a, b, c) that returns the largest number.
+
+Create a function factorial(n) that returns the factorial of a number.
+
+Create a function isPalindrome(str) that checks if a string is palindrome.
+
+Create a function sumOfArray(arr) that returns the sum of all numbers in an array.
+
+Create a function getEvenNumbers(arr) that returns only even numbers from an array.
+
+Create a function countWords(sentence) that counts number of words.
+
+Create a function findAverage(arr) that returns the average of an array of numbers.
+
+🔵 Challenging Function Questions
+
+Create a function fibonacci(n) that prints the first n Fibonacci numbers.
+
+Create a function findPrimeNumbers(limit) that returns all prime numbers up to limit.
+
+Create a function removeDuplicates(arr) that removes duplicate values from an array.
+
+Create a function sortArray(arr) that sorts numbers in ascending order (without using .sort()).
+
+Create a function capitalizeWords(sentence) that capitalizes the first letter of each word.
