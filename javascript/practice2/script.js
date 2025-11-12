@@ -179,7 +179,7 @@
 // isPalindrome("madam");     
 // isPalindrome("hello");
 //Create a function sumOfArray(arr) that returns the sum of all numbers in an array.
-function sumOfArray(arr){
-    return arr;
-}
-console.log(arr);
+// function sumOfArray(arr){
+//     return arr;
+// }
+// console.log(arr);
