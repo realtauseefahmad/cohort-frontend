@@ -84,4 +84,30 @@
 // runTwice(greet);
 
 // Create one pure function that always returns the same output for a given input, and one impure function using a global variable.
+// function abcd(val){
+//     console.log(val +2);
+// }
+// abcd(6);
+// abcd(6);
+// let count = 5;
+// function addToCount(val) {
+//     count = count + val;
+//     return count;
+// }
+// console.log(addToCount(2));
+// console.log(addToCount(2));
+
+//Write a function that uses object destructuring inside parameters to extract and print `name` and `age`.
+// function printInfo({ name, age, city}) {
+//     console.log("Name:", name);
+//     console.log("Age:", age);
+//     console.log("city:", city);
+// }
+// const person = {
+//     name: "Tauseef",
+//     age: 22,
+//     city: "Bhopal"
+// };
+// printInfo(person);
+
 
