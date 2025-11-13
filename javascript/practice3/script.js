@@ -44,3 +44,44 @@
 // }
 // parent(); 
 
+//Create an array of 5 fruits. Add one at the end and remove one from the beginning.
+// let arr = ["apple", "mango", "orange", "banana", "papaya"];
+// arr.push("Lichi");
+// arr.shift();
+// console.log(arr);
+
+//Use a `for` loop to print all elements of an array.
+// let arr = ["tauseef","abdur","musa"];
+// for(let i=0; i<arr.length; i++){
+//     console.log(arr[i]);
+// }
+
+//Create an object `person` with keys `name`, `age`,and `city`, and print each key’s value.
+// let person= {
+//     name : "tauseef",
+//     age : 22,
+//     city : "Bhopal",
+// };
+// for(let key in person){
+//     console.log(person[key]);
+// }
+
+//Use `setTimeout()` to log `"Time’s up!"` after 2seconds
+// setTimeout(function(){
+//     console.log("Time’s up!");
+// }, 2000);
+
+//Level 2 – Functional Thinking & Logic Tasks (Intermediate)
+
+//Write a higher-order function `runTwice(fn)` that takes another function and executes it two times.
+// function runTwice(fn){
+//     fn();
+//     fn();
+// }
+// function greet(){
+//     console.log("Hello, Tauseef!");
+// }
+// runTwice(greet);
+
+// Create one pure function that always returns the same output for a given input, and one impure function using a global variable.
+
