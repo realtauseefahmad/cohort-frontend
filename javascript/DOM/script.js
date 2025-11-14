@@ -52,5 +52,50 @@
 //     crsr.style.left = dets.x+"px"
 //     crsr.style.top = dets.y+"px"
 // })
-
-// g
+var arr = [
+    {
+        team: 'CSK',
+        primary: 'yellow',
+        secondary: 'blue',
+        trophy : '🏆',
+    },
+    {
+        team: 'RCB',
+        primary: 'black',
+        secondary: 'red',
+        trophy : '🏆',
+    },
+    {
+        team: 'MI',
+        primary: 'blue',
+        secondary: 'gold',
+        trophy : '🏆',
+    },
+    {
+        team: 'KKR',
+        primary: 'purple',
+        secondary: 'gold',
+        trophy : '🏆',
+    },
+    {
+        team: 'SRH',
+        primary: 'black',
+        secondary: 'orange',
+        trophy : '🏆',
+    },
+    {
+        team: 'PBKS',
+        primary: 'crimson',
+        secondary: 'silver',
+        trophy : '🏆',
+    },
+]
+var btn = document.querySelector('button')
+var h1 = document.querySelector('h1')
+var main = document.querySelector('main')
+btn.addEventListener('click',function(){
+    var winner = arr[Math.floor(Math.random()*arr.length)]
+    h1.innerHTML = winner.team  + winner.trophy
+    h1.style.backgroundColor = winner.secondary
+    main.style.backgroundColor = winner.primary  
+})
