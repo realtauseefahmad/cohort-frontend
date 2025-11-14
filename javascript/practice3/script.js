@@ -110,4 +110,35 @@
 // };
 // printInfo(person);
 
+// // Given an array of numbers, use `map()` to create a new array where each number is squared.
+// let arr = [1,2,3,8,10,15];
+// let arr1 = arr.map(function(n){
+//     return n*n;
+// });
+// console.log(arr1);
+
+// //Use `filter()` to get only even numbers from an array.
+// let arr = [1,2,3,4,5,6,7,8,9,10];
+// let arr1 = arr.filter(function(val){
+//     return val%2 === 0;
+// })
+// console.log(arr1);
+
+// //Use `reduce()` to find the total salary from an array of numbers [1000, 2000, 3000]
+// let salary=[1000, 2000, 3000,15000];
+// let total=salary.reduce(function(sum,salary){
+//     return sum+salary;
+// });
+// console.log(total);
+
+// //Create an array of names and use `some()` and `every()` to test a condition (e.g., all names longer than 3 chars).
+// let arr=["Tauseef","Abdur","Musa","Modabbir",];
+// let allLongerThan3 = arr.every(function(name){
+//     return name.length > 3;
+// });
+// console.log(allLongerThan3);
+// let shorterThan3 = arr.some(function(name){
+//     return name.length < 3;
+// });
+// console.log(shorterThan3);
 
