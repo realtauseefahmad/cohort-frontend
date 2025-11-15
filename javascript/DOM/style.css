@@ -116,7 +116,7 @@ main h1{
     font-weight: bold;
     text-transform: uppercase;
 } */
-main{
+/* main{
   height: 100%;
   width: 100%;
   background-color: white;
@@ -146,4 +146,4 @@ button{
 
 button:active{
   scale: 0.95;
-}
+} */
