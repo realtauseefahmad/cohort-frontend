@@ -52,42 +52,49 @@
 //     crsr.style.left = dets.x+"px"
 //     crsr.style.top = dets.y+"px"
 // })
+
 // var arr = [
 //     {
 //         team: 'CSK',
 //         primary: 'yellow',
 //         secondary: 'blue',
 //         trophy : '🏆',
+//         captain : '(Ruturaj Gaikwad)'
 //     },
 //     {
 //         team: 'RCB',
 //         primary: 'black',
 //         secondary: 'red',
 //         trophy : '🏆',
+//         captain : '(Rajat Patidar)'
 //     },
 //     {
 //         team: 'MI',
 //         primary: 'blue',
 //         secondary: 'gold',
 //         trophy : '🏆',
+//         captain : '(Hardik Pandya)'
 //     },
 //     {
 //         team: 'KKR',
 //         primary: 'purple',
 //         secondary: 'gold',
 //         trophy : '🏆',
+//         captain : '(Ajinkya Rahane)'
 //     },
 //     {
 //         team: 'SRH',
 //         primary: 'black',
 //         secondary: 'orange',
 //         trophy : '🏆',
+//         captain : '(Pat Cummins)'
 //     },
 //     {
 //         team: 'PBKS',
 //         primary: 'crimson',
 //         secondary: 'silver',
 //         trophy : '🏆',
+//         captain : '(Shreyas lyer)'
 //     },
 // ]
 // var btn = document.querySelector('button')
@@ -95,7 +102,7 @@
 // var main = document.querySelector('main')
 // btn.addEventListener('click',function(){
 //     var winner = arr[Math.floor(Math.random()*arr.length)]
-//     h1.innerHTML = winner.team  + winner.trophy
+//     h1.innerHTML = winner.team  + winner.trophy + winner.captain
 //     h1.style.backgroundColor = winner.secondary
 //     main.style.backgroundColor = winner.primary  
 // })
