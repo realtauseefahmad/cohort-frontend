@@ -1,0 +1,45 @@
+SECTION 1: OOPS Thinking with Objects
+	1.	Create an object called laptop that contains brand, price, and a start method that prints “Laptop started”.
+	2.	Add one more method to the same object that increases the price by 10 percent.
+	3.	Now imagine you need 10 laptops with same structure but different data.
+Write down (in words or code) what problems you will face if you keep using plain objects.
+
+⸻
+
+SECTION 2: Classes and Objects (Reinforcement)
+	4.	Create a class named Employee that stores:
+name
+salary
+
+Add a method showDetails that prints name and salary.
+	5.	Create three employee objects from the same class and verify that modifying one employee does not affect the others.
+	6.	Explain in your own words:
+Why is class considered a better option than writing similar objects again and again?
+
+⸻
+
+SECTION 3: Constructor and Initialization
+	7.	Create a class named BankAccount.
+        Its constructor should accept accountHolderName and balance.Inside the constructor, store both values using this. Add a method deposit(amount) that increases the balance. Create two bank accounts and deposit money into only one .Observe and explain why the second account is not affected.
+
+⸻
+
+SECTION 4: Understanding this (Very Important)	Create an object named profile with a property username and a method printName that logs this.username.Call the method normally and observe the output.Store the method in a separate variable and call it.
+Observe what happens to this and explain why.Modify the code so that this works correctly again.
+
+⸻
+
+SECTION 5: Constructor Function and Prototype	Create a constructor function called Vehicle that accepts type and wheels.	Add a method describe inside the constructor and observe memory behavior when multiple objects are created.	Move the same method to Vehicle.prototype and repeat the test.Explain why the prototype approach is preferred.
+
+⸻
+
+SECTION 6: call Method Practice	Create a function showBrand that prints this.brand. Create two different objects with brand values.	Use call to execute showBrand for both objects.	Explain what problem call is solving here.
+
+⸻
+
+SECTION 7: apply Method Practice.	Create a function introduce that accepts two arguments: city and role, and prints name, city, and role using this.name.	Create an object with a name property.	Use apply to call introduce using the object and an array of arguments.	Explain in simple words how apply differs from call.
+
+⸻
+
+SECTION 8: bind Method Practice
+	27.	Create a function greet that prints “Hello” followed by this.name.	Bind this function to an object and store the returned function in a variable.	Call the bound function later and observe the output.	Explain why bind is useful when functions are executed later or inside callbacks.
