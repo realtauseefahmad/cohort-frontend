@@ -47,8 +47,6 @@ class Employee{
     };
 };
 emp1 = new Employee("Tauseef Ahmad", 50000);
-emp1.showDetails();
-
 //Create three employee objects from the same class and verify that modifying one employee does not affect the others.
 let addEmployee = {
     emp1: new Employee("Tauseef Ahmad", 50000),
