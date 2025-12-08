@@ -1,0 +1,104 @@
+1. Basic Callback Execution
+Write a function execute(callback) that simply calls the callback and prints "Callback executed".
+
+2. Callback With Arguments
+Create a function calculate(a, b, cb) that adds the numbers and sends the result to the callback.
+
+3. Error-First Callback
+Make a function checkAge(age, cb):
+If age < 18 → cb(new Error("Underage"))
+Else → cb(null, "Allowed")
+
+4. Asynchronous Callback Using setTimeout
+Create fetchData(cb) that waits 1 second and calls callback with "Data received".
+
+5. Multiple Callbacks in One Function
+Create processNumbers(a, b, successCb, errorCb):
+If both are numbers → call successCb
+Else → call errorCb
+
+6. Sequential Async Callbacks
+Write three async functions:
+step1(cb) → returns 1
+step2(x, cb) → returns x+2
+step3(x, cb) → returns x+3
+Execute them in sequence using callbacks.
+
+7. Callback Hell Simulation
+Perform:
+register →
+send email →
+verify email →
+login
+All using nested callbacks.
+
+8. Callback With This Binding Issue
+Create an object with a method using this, extract it into a variable and fix this using .bind.
+
+9. Callback Returning Another Callback
+Make a function outer(cb) that returns another callback which logs a message.
+
+10. Higher-Order Callback Function
+Create repeat(n, cb) that executes the callback n times.
+
+11. Parallel Callbacks
+Implement runParallel(tasks, finalCb):
+tasks is an array of async functions (cb) => {}
+Collect results and pass to finalCb
+
+12. Series Callback Runner
+Implement runSeries(tasks, finalCb):
+Run async tasks one-by-one
+Pass final result in finalCb
+
+13. Callback Queue Example
+Simulate a queue of 3 callbacks that run in order with a delay.
+
+14. Promisify Concept Using Callbacks
+Write promisify(fn) that converts a callback function to a Promise function.
+
+15. Callback for Filtering
+Make a function filterArray(arr, cb) that returns only elements for which callback returns true.
+
+16. Callback for Mapping
+Create function mapArray(arr, cb) that applies callback to every element.
+
+17. Callback With API Simulation
+Simulate:
+getUser(id, cb)
+getPosts(userId, cb)
+getComments(postId, cb)
+Call them in nested callbacks.
+
+18. Retry Logic Using Callbacks
+Create a function retry(fn, attempts, cb):
+Run fn until it returns success or attempts finish.
+
+19. Callback Timeout
+Create withTimeout(fn, limit, cb):
+If fn doesn’t call cb within time, return error.
+
+20. Debounce Using Callbacks
+Implement debounce(fn, delay):
+Only execute fn after user stops calling it.
+
+21. Throttle Using Callbacks
+Implement throttle(fn, delay):
+fn can run only once in each time window.
+
+22. Multi-Level Callback Passing
+Write a function that receives a callback, modifies it, and passes to another function.
+
+23. Callback Loop With Exit Condition
+Create loop(cb) that runs callback continuously until callback returns false.
+
+24. Callback-Based Event Emitter
+Create a mini event emitter:
+.on(event, cb)
+.emit(event)
+
+25. File-Style Error Handling Simulation
+Create readMockFile(name, cb):
+If fileName === "data.txt" → success
+Else → return error
+Use callback for both cases.
