@@ -35,6 +35,8 @@ Events & Functions
 
 Async JS (Promises, async/await)
 
-React.js Basics (if used in your cohort)
+React.js 
+
+Three.js
 
 Mini Projects & Tasks
