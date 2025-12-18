@@ -1,3 +1,4 @@
+import img from './assets/img.png'
 function App() {
 
   return (
