@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  color: whitesmoke;
+  font-family: "Arial", sans-serif;
+  background: #000;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+#root nav {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+#root nav .left {
+  font-size: 20px;
+}
+#root nav .left a {
+  color: whitesmoke;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0 10px;
+}
+#root nav .right {
+  font-size: 20px;
+}
+#root nav .right a {
+  color: whitesmoke;
+  font-weight: bold;
+  padding: 0 10px;
+}
+#root header {
+  width: 100%;
+  height: 600px;
+  position: relative;
+}
+#root header img {
+  width: 600px;
+  height: 600px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  left: 50%;
+}
+#root header .top {
+  display: flex;
+  width: 350px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  position: absolute;
+  top: 80px;
+  left: 150px;
+}
+#root header .top .details h2 {
+  font-size: 30px;
+}
+#root header .top .details p {
+  font-size: 20px;
+}
+#root header .buttom {
+  position: absolute;
+  top: 200px;
+  left: 180px;
+  text-align: center;
+}
+#root header .buttom h1 {
+  font-size: 80px;
+}
+#root header .buttom p {
+  font-size: 30px;
+}
+
+@media (max-width: 480px) {
+  #root nav .left, #root nav .right {
+    font-size: 12px;
+  }
+  #root nav .left a, #root nav .right a {
+    padding: 0 3px;
+  }
+  #root header {
+    height: auto;
+  }
+  #root header img {
+    width: 100%;
+    height: auto;
+    position: static;
+  }
+  #root header .top {
+    position: static;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+  #root header .top .details h2 {
+    font-size: 20px;
+  }
+  #root header .top .details p {
+    font-size: 14px;
+  }
+  #root header .buttom {
+    position: static;
+    padding: 10px;
+  }
+  #root header .buttom h1 {
+    font-size: 30px;
+  }
+  #root header .buttom p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 768px) {
+  #root nav .left, #root nav .right {
+    font-size: 16px;
+  }
+  #root nav .left a, #root nav .right a {
+    padding: 0 5px;
+  }
+  #root header {
+    height: auto;
+  }
+  #root header img {
+    width: 100%;
+    height: auto;
+    position: static;
+  }
+  #root header .top {
+    position: static;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  #root header .top .details h2 {
+    font-size: 24px;
+  }
+  #root header .top .details p {
+    font-size: 16px;
+  }
+  #root header .buttom {
+    position: static;
+    padding: 20px;
+  }
+  #root header .buttom h1 {
+    font-size: 40px;
+  }
+  #root header .buttom p {
+    font-size: 18px;
+  }
+}/*# sourceMappingURL=index.css.map */
