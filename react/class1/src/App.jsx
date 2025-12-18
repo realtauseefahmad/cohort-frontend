@@ -1,4 +1,5 @@
 import img from './assets/img.png'
+
 function App() {
 
   return (
@@ -15,7 +16,7 @@ function App() {
         </div>
       </nav>
       <header>
-        <img src="./src/assets/img.png"/>
+        <img src={img} />
         <div className="top">
           <div className="details">
             <h2>+200</h2>
